@@ -13,6 +13,6 @@ Various things that my library contains that helped me in my Android app develop
     * This one is the basis for a [Directed Acyclic Graph (DAG)](https://en.wikipedia.org/wiki/Directed_acyclic_graph) of graphics filters.
     * It enables arbitrarily long chains of effects (eg. FilterGaussianBlur) backed by RenderScript.
     * A good number of engineering requirements had to be taken into account here including the need for filters to be marked as 'invalid' so as not to unnecessarily reprocess a node, enable filters that take two inputs (eg. FilterRevealRadial), and more.
-    * The code in here is confirmed to work on one of the slowest purchaseable phones while using less than 16MB of working memory.
+    * The code in here is confirmed to support a fairly complex image processing application with a long chain of effects on one of the slowest purchaseable phones while using less than 16MB of working memory (including intermediate surfaces between nodes).
 * XmlViewBase
     * Used as the basis of modular view components which can be instantiated both in xml and programmatically.  Ie. Helps when dynamic loading of complex views (stored as xml files) is needed without needing to stuff it into a fragment.
