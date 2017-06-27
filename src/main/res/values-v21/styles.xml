@@ -1,0 +1,16 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<style name="Theme.NoodlesAndNaan.Default.NoActionBar" parent="@style/Theme.NoodlesAndNaan.Common.NoActionBar">
+		<item name="android:windowDrawsSystemBarBackgrounds">true</item>
+		<item name="android:windowTranslucentStatus">true</item>
+		<item name="android:windowContentTransitions">true</item>
+		<item name="android:windowAllowEnterTransitionOverlap">true</item>
+		<item name="android:windowAllowReturnTransitionOverlap">true</item>
+	</style>
+
+	<!-- TODO HACK: since FAB view sizes are different on API versions less than 21 -->
+	<style name="floating_action_button">
+		<item name="android:layout_margin">16dp</item>
+	</style>
+
+</resources>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <!-- Side content -->
+
+    <FrameLayout
+        android:id="@+id/Activity_TwoPane_Side"
+        android:layout_width="296dp"
+        android:layout_height="match_parent" />
+
+    <!-- Separator -->
+
+    <!--<View-->
+    <!--android:layout_width="1dp"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:background="@color/common_grayverylight" />-->
+
+    <!--Main content-->
+
+    <FrameLayout
+        android:id="@+id/Activity_TwoPane_Main"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
+
+</LinearLayout>

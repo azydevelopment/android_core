@@ -1,0 +1,7 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<style name="Theme.NoodlesAndNaan.Default.NoActionBar" parent="@style/Theme.NoodlesAndNaan.Common.NoActionBar">
+		<item name="android:windowTranslucentStatus">false</item>
+	</style>
+
+</resources>

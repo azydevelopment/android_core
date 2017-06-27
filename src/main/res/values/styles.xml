@@ -1,0 +1,24 @@
+<resources>
+
+    <style name="Theme.NoodlesAndNaan.Common.NoActionBar" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">#bbbbbb</item>
+        <item name="colorPrimaryDark">#666666</item>
+        <item name="colorAccent">#444444</item>
+        <item name="colorControlActivated">#666666</item>
+    </style>
+
+    <style name="Theme.NoodlesAndNaan.Default.NoActionBar" parent="@style/Theme.NoodlesAndNaan.Common.NoActionBar" />
+
+    <style name="Theme.NoodlesAndNaan.Default.NoActionBar.Fullscreen" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <!-- TODO HACK: since FAB view sizes are different on API versions less than 21 -->
+    <style name="floating_action_button">
+        <item name="android:layout_marginLeft">0dp</item>
+        <item name="android:layout_marginTop">-8dp</item>
+        <item name="android:layout_marginRight">0dp</item>
+        <item name="android:layout_marginBottom">-8dp</item>
+    </style>
+
+</resources>

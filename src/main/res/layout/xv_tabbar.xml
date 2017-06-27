@@ -1,0 +1,28 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:orientation="vertical" >
+
+	<LinearLayout
+		android:id="@+id/Xv_TabBar_Root"
+		android:layout_width="match_parent"
+		android:layout_height="0dp"
+		android:layout_weight="1"
+		android:orientation="horizontal"
+		android:paddingBottom="2dp"
+		android:paddingTop="4dp" />
+
+	<FrameLayout
+		android:layout_width="match_parent"
+		android:layout_height="2dp" >
+
+		<View
+			android:id="@+id/Xv_TabView_HintBar"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:background="#ff000000" >
+		</View>
+	</FrameLayout>
+
+</LinearLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<!--&lt;!&ndash; Grays &ndash;&gt;-->
+	<!--<color name="common_blackveryverytranslucent">#11000000</color>-->
+	<!--<color name="common_gray">#999999</color>-->
+	<!--<color name="common_graylight">#bbbbbb</color>-->
+	<!--<color name="common_grayverylight">#eeeeee</color>-->
+	<!--<color name="common_grayveryverylight">#f3f3f3</color>-->
+	<!--<color name="common_graydark">#666666</color>-->
+	<!--<color name="common_grayverydark">#444444</color>-->
+	<!--<color name="common_grayveryverydark">#333333</color>-->
+
+	<!--&lt;!&ndash; Whites &ndash;&gt;-->
+	<!--<color name="common_white">#ffffff</color>-->
+	<!--<color name="common_whitetranslucent">#88ffffff</color>-->
+	<!--<color name="common_whiteverytranslucent">#33ffffff</color>-->
+
+	<!-- Toolbar -->
+	<color name="common_toolbar_background">#fff3f3f3</color>
+	<color name="common_toolbar_shadow_start">#00000000</color>
+	<color name="common_toolbar_shadow_end">#30000000</color>
+
+</resources>

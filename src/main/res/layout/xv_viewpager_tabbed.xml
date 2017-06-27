@@ -1,0 +1,20 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:id="@+id/LinLayout_SnapEdit"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical" >
+
+	<com.arcdatum.android.core.enhanced.ui.ViewPagerEnhanced
+		android:id="@+id/ViewPager"
+		android:layout_width="match_parent"
+		android:layout_height="0dp"
+		android:layout_weight="3" />
+
+	<com.arcdatum.android.core.ui.xmlViews.XVViewTabBar
+		android:id="@+id/TabBar_SnapEdit"
+		android:layout_width="match_parent"
+		android:layout_height="0dp"
+		android:layout_weight="1" />
+
+</LinearLayout>

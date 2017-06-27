@@ -1,0 +1,48 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:orientation="vertical" >
+
+	<Button
+		android:id="@+id/Button"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignBottom="@+id/TextContainer"
+		android:layout_alignEnd="@+id/TextContainer"
+		android:layout_alignLeft="@+id/TextContainer"
+		android:layout_alignRight="@+id/TextContainer"
+		android:layout_alignStart="@+id/TextContainer"
+		android:layout_alignTop="@+id/TextContainer"
+		android:background="?attr/selectableItemBackground"
+		android:inputType="none"
+		android:text="" />
+
+	<LinearLayout
+		android:id="@+id/TextContainer"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_centerInParent="true"
+		android:gravity="center"
+		android:orientation="vertical"
+		android:paddingBottom="10dp"
+		android:paddingTop="10dp" >
+
+		<TextView
+			android:id="@+id/Text"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:ellipsize="end"
+			android:maxLines="1"
+			android:textSize="15sp" />
+
+		<TextView
+			android:id="@+id/Subtext"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:maxLines="1"
+			android:textSize="14sp"
+			android:textStyle="bold" />
+	</LinearLayout>
+
+</RelativeLayout>
