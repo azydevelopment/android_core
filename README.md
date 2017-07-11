@@ -1,9 +1,24 @@
 # android_core
-Core Android library that I use for my personal projects. Just a place to put my stuff for now. Hopefully I'll have time to clean it up.
+TLDR: Personal core Android library that I use for my personal projects. Just a place to put my stuff for now. Maybe I'll clean it up sometime for general usage.
 
-If you want to see some of my code in action, you can download one of my hobby apps, [Readable for Wikipedia™](https://play.google.com/store/apps/details?id=com.arcdatum.apps.readable).
+If you want to see some of this in action, you can download one of my hobby apps, [Readable for Wikipedia™](https://play.google.com/store/apps/details?id=com.arcdatum.apps.readable).
 
-Various things that my library contains that helped me in my Android app development:
+## The context
+Rewriting code that doesn't do anything different than other code you've written is generally not fun.
+
+## The problem
+Not fun things are not fun.
+
+## The solution
+This library.
+
+## The details
+Please look at the source and forgive the fact that it's not in a developer friendly state.
+
+## The example
+One of my hobby apps [Readable for Wikipedia™](https://play.google.com/store/apps/details?id=com.arcdatum.apps.readable).
+
+Various things that the library contains that help me in my Android app development:
 * ActivityTwoPane
     * Abstracts away the concept of a two pane tablet mode and one pane mobile mode (with drawer as the side pane) away from the application by taking two fragments (main and side) provided by the app and putting them into their appropriate places.
 * AdapterStreamingAsync
